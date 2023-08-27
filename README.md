@@ -13,4 +13,4 @@ Menu:
 Game screen:
 ![c41412c0-0afb-400e-b67e-1ed7d8c7a442](https://github.com/Yoni2222/Simon/assets/55746609/786b52c5-2a90-492b-bf7c-9b0b0a456ffb)
 
-c41412c0-0afb-400e-b67e-1ed7d8c7a442
+
