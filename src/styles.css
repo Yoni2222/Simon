@@ -1,0 +1,168 @@
+.game{
+	position:relative;
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+	gap:10px;
+	background-color:black;
+	
+}
+.button{
+	position:relative;
+	width:300px;
+	height:200px;
+	border:transparent;
+}
+.topLeftRed{
+	-webkit-border-radius: 250px 0 0 0;
+	/*background-color:red;*/
+	/*background:#888888;*/
+	background:
+      radial-gradient(closest-side at 105% 95%, transparent,transparent 150px,red 20px),
+	  radial-gradient(closest-side at 105% 95%, transparent,transparent 150px,red 20px);
+	margin-right: 10px;
+}
+
+.topRightGreen{
+	-webkit-border-radius: 0 250px 0 0;
+	/*background-color:green;*/
+	background:
+	radial-gradient(closest-side at -5% 95%, transparent,transparent 150px,green 20px),
+	radial-gradient(closest-side at -5% 95%, transparent,transparent 150px,green 20px);
+	margin-left: 10px;
+}
+
+.bottomRightYellow{
+	-webkit-border-radius: 0 0 250px 0;
+	/*background-color:yellow;*/
+	background:
+	radial-gradient(closest-side at -5% -5%, transparent,transparent 150px,yellow 20px),
+	radial-gradient(closest-side at -5% -5%, transparent,transparent 150px,yellow 20px);
+	margin-left: 10px;
+}
+
+.bottomLeftBlue{
+	-webkit-border-radius: 0 0 0 250px;
+	/*background-color:blue;*/
+	background:
+	radial-gradient(closest-side at 105% -5%, transparent,transparent 150px,blue 20px),
+	radial-gradient(closest-side at 105% -5%, transparent,transparent 150px,blue 20px);
+	margin-right: 10px;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/				/*puts the content in middle line*/
+	align-items: center;						/*puts the content in middle of the line*/
+	height:100vh;
+	gap:30px;
+	background-color: #39ff14;
+	
+}
+
+.welcome{
+	/*font-family: "ARCADECLASSIC";*/
+	/*font-family:  "pricedown bl";*/
+	font-family: "toxicgenesis bd";
+	color:black;
+	margin-top: 150px;
+	font-size: 8rem;
+}
+
+.subtitle{
+	position:absolute;
+	margin-top:350px;
+	color:rgba(10, 6, 20, 0.972);
+	font-size:1.5rem;
+	font-family: "toxicgenesis bd";
+}
+#first{
+	color:#39ff14;
+	color: #39ff14; /* White */
+	color:white;
+  	text-shadow: 3px 3px 0px #ff9a8b, 6px 6px 0px #f6d365;
+	  text-shadow: 3px 3px 0px black, 6px 6px 0px black;
+}
+#second{
+	color:#39ff14;
+	color: #39ff14; /* White */
+	color:white;
+	text-shadow: 3px 3px 0px black, 6px 6px 0px black;
+}
+#third{
+	color:#39ff14;
+	color: #39ff14; /* White */
+	color:white;
+	text-shadow: 3px 3px 0px black, 6px 6px 0px black;
+}
+#fourth{
+	color:#39ff14;
+	color: #39ff14; /* White */
+	color:white;
+	text-shadow: 3px 3px 0px black, 6px 6px 0px black;
+}
+#fifth{
+	color:#39ff14;
+	color: #39ff14; /* White */
+	color:white;
+	text-shadow: 3px 3px 0px black, 6px 6px 0px black;
+}
+
+.playButton{
+	width:100px;
+	height:50px;
+	color:#39ff14;
+
+	font-size: 1.5rem;
+	font-family: "toxicgenesis bd";
+	text-decoration: none;
+	background-color: white;
+	border: #39ff14 solid;
+	
+}
+
+.score{
+	font-size: 1.5rem;
+	color:white;
+}
+
+.tryAgain{
+	font-family: 'Times New Roman';
+	font-size: 2rem;
+	font-weight:bold;
+	width:170px;
+	height:40px;
+	color:white;
+	background-color: black;
+	border:black solid;
+}
+
+a:visited{
+	color:black;
+}
+
+.simon{
+	border-radius: 50%;
+	/*width:150px;*/
+	font-size: 4rem;
+	position:absolute;
+	bottom: 50%;
+	color:white;
+}
+
+
+@font-face {
+    /*font-family: 'pricedown bl';*/
+    font-family: 'ARCADECLASSIC';
+	font-family: "toxicgenesis bd";
+	src: url('./fonts/toxigenesis\ bd.otf') format('truetype');
+    /*src: url('./fonts/ARCADECLASSIC.TTF') format('truetype');*/
+	/*src: url('./fonts/pricedown\ bl.otf') format('truetype');*/
+    /*src: url('../fonts/digital-7.ttf') format('truetype');*/
+  }
+
+  
